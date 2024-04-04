@@ -1,0 +1,183 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#container:hover {
+  background-color: blue;
+}
+
+.column {
+    flex: 1 1 auto;
+    padding: 0px;
+    border: none;
+    margin: 10px;
+}
+
+.right-1 {
+    width: 100px;
+}
+
+.right-2 {
+    width: 100px;
+    margin-block-start: 42px;
+    text-align: right;
+    
+}
+.right-3 {
+    width: 100px;
+    margin-block-start: 42px;
+    text-align: center;
+}
+.right-4 {
+    width: 100px;
+    margin-block-start: 42px;
+    text-align: left;
+}   
+.right-5 {
+    width: 100px;
+    margin-block-start: 42px;
+    text-align: left;
+} 
+.right-6 {
+    width: 100px;
+    margin-block-start: 42px;
+    text-align: left;
+
+} 
+.anh
+{
+  width:1341px;
+  height: 530px;
+}
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr repeat(5, 1fr);
+    grid-gap: 10px;
+  }
+
+  .right-2:hover {
+    color: #7c7979;
+   }
+   .right-3:hover {
+    color: #7c7979;
+   }
+   .right-4:hover {
+    color: #7c7979;
+   }
+   .right-5:hover {
+    color: #7c7979;
+   }
+   .right-6:hover {
+    color: #7c7979;
+   }
+.imagebody {
+    width: 28px;
+}
+.noidung {
+    width: 690px;
+    margin-block-start: 42px;
+    text-align: left;
+}
+.noidungbody {
+    flex: 1 1 auto;
+    padding: 0px;
+    border: none;
+    margin: 10px;
+}
+p {
+    font-size: 20px;
+}
+#showrooms-list {
+    margin-top: 20px;
+}
+
+.showroom {
+    margin-bottom: 20px;
+    border-left: 6px solid rgb(144, 148, 147);
+    padding-left: 10px;
+}
+
+#showroom-1{
+  
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0px;
+    position: fixed;
+  }
+  
+  .footer-column {
+    padding: 80px;
+    background-color: #d0cbcb;
+  }
+  .a {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .a:hover {
+    background-color: red;
+  }
+  a {
+    line-height: 2; 
+  }
+/*FOOTER*/
+.footer
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+.column-footer
+{
+  flex: 1 1 auto;
+  padding: 10px;
+  border: none;
+}
+.khung1
+{
+  width: 87px;
+  background-color: #d0cbcb;
+}
+.khung2
+{
+  width: 4px;
+  background-color: #d0cbcb;
+}
+.khung3
+{
+  width: 6px;
+  background-color: #d0cbcb;
+}
+.khung4
+{
+  width: 2px;
+  background-color: #d0cbcb;
+}
+.a {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.a:hover {
+  background-color: red;
+}
+a {
+  line-height: 2; 
+}
+.copy
+{
+  background-color: rgb(117, 90, 90);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  margin-top: -18px;
+}

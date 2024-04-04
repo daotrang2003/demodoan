@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .product-image {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .product-image img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .product-details {
+    flex: 1;
+  }
+  
+  
+  .product-description {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .product-price {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .product-options {
+    margin-top: 10px;
+  }
+  
+  .product-options label {
+    font-size: 16px;
+  }
+  
+  .product-options select,
+  .product-options input[type="number"] {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  
+  .gio-hang{
+    font-size: 20px;
+    margin: 20px ;
+}
+.huong-dan-su-dung {
+    clear: both; /* đảm bảo không có phần tử nào ảnh hưởng từ float */
+}
+
+.huongdan {
+    overflow: hidden; /* tạo block formatting context để không bị trôi lệch */
+}
+
+.huong-dan-su-dung img {
+    float: left; /* căn hình ảnh về phía trái */
+    margin-right: 20px; /* tạo khoảng cách giữa hình ảnh và mô tả */
+    height: 650px; 
+}

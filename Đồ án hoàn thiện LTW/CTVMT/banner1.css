@@ -1,0 +1,142 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+header 
+{
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+footer 
+{
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.khung {
+    flex: 1 1 auto;
+    padding: 10px;
+    border: none;
+    margin: 10px;
+}
+
+.khung-1 {
+    width: 200px;
+}
+
+.khung-2 {
+    width: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+}
+.khung-3
+{
+    width:250px;
+}
+
+.h1
+{
+    font-size:56px;
+    font-weight:lighter;
+    font-family: Georgia;
+}
+.p1
+{
+    margin-top:10px;
+    font-style:italic;
+    text-align:center;
+}
+.p2
+{
+    font-size:20px;
+    text-align: justify;
+}
+.anh {
+    width:551px;
+}
+.h2
+{
+    font-style:italic;
+}
+.cot-trai {
+    float: left;
+    width: 142px;
+    border:none;
+    margin-left:9px;
+    font-size:18px;
+    font-style:italic;
+    cursor: pointer;
+}
+
+.hinh-anh {
+    float: left;
+    margin: 4px;
+    cursor: pointer;
+}
+/*FOOTER*/
+.footer
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+.column-footer
+{
+  flex: 1 1 auto;
+  padding: 10px;
+  border: none;
+}
+.khung1
+{
+  width: 87px;
+  background-color: #d0cbcb;
+}
+.khung2
+{
+  width: 4px;
+  background-color: #d0cbcb;
+}
+.khung3
+{
+  width: 6px;
+  background-color: #d0cbcb;
+}
+.khung4
+{
+  width: 2px;
+  background-color: #d0cbcb;
+}
+.a {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.a:hover {
+  background-color: red;
+}
+a {
+  line-height: 2; 
+}
+.copy
+{
+  background-color: rgb(117, 90, 90);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  margin-top: -18px;
+}
