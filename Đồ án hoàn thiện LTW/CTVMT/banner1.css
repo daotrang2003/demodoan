@@ -1,20 +1,69 @@
-body 
+html, body 
 {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image:url('../image/nen.jpg')
 }
-header 
-{
-  background-color: #333;
-  color: white;
-  padding: 1rem;
+/*HEADER*/
+.container-header {
+  display: flex;
+  flex-wrap: wrap;
+  
 }
-footer 
+#container:hover {
+background-color: blue;
+}
+
+.khungheader {
+  flex: 1 1 auto;
+  padding: 0px;
+  border: none;
+  margin: 10px;
+}
+.text
 {
-    background-color: #333;
-    color: white;
-    padding: 1rem;
-    text-align: center;
+margin :10px 10px;
+}
+.khungheader-1 {
+  width: 22px;
+  margin-left: -117px;
+}
+.khungheader-2 {
+  width: 600px;
+}
+.khungheader-3
+{
+  
+  width: 100px;
+  margin-top: -14px;
+  margin-left: -25px 
+}
+.icon-1
+{
+  width: 50px;
+  text-align: center;
+  font-size: 28px;
+  margin: 7px;
+}
+.input-wrapper {
+  position: relative;
+  display: inline-block;
+  width:768px;
+}
+
+.input-wrapper input {
+  padding-right: 30px; /* Để tạo không gian cho biểu tượng */
+}
+
+.input-wrapper .icon {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+}
+.input-wrapper .icon i {
+  color: #999;
 }
 body {
     font-family: sans-serif;

@@ -1,0 +1,172 @@
+/*HEADER*/
+.container-header {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#container:hover {
+  background-color: blue;
+}
+
+.khung {
+    flex: 1 1 auto;
+    padding: 0px;
+    border: none;
+    margin: 10px;
+}
+.text
+{
+  margin :10px 10px;
+}
+.khung-1 {
+    width: 22px;
+    margin-left: -117px;
+}
+.khung-2 {
+    width: 600px;
+}
+.khung-3
+{
+    
+    width: 100px;
+    margin-top: -14px;
+    margin-left: -25px 
+}
+.icon-1
+{
+    width: 50px;
+    text-align: center;
+    font-size: 48px;
+    margin: 6px;
+}
+.input-wrapper {
+    position: relative;
+    display: inline-block;
+    width:768px;
+  }
+  
+.input-wrapper input {
+    padding-right: 30px; /* Để tạo không gian cho biểu tượng */
+  }
+  
+  .input-wrapper .icon {
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    transform: translateY(-50%);
+  }
+.input-wrapper .icon i {
+    color: #999;
+  }
+/*NOI DUNG*/    
+.san-pham-ban-chay {
+list-style: none;
+padding: 0;
+margin: 0;
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap:20px;
+}
+.san-pham {
+    cursor: pointer;
+align-items: center;
+padding: 10px;
+border: 1px solid #ddd;
+margin-bottom: 10px;
+}
+.hinh-anh {
+margin-left: 60px;
+width:300px;
+height:auto;
+transition: transform 0.5s ease;
+
+}
+
+.mo-ta {
+margin-bottom: 5px;
+text-align: left;
+grid-template-columns: 1fr 1fr ;
+
+}
+.mo-ta button {
+float: right;
+}
+.gio-hang {
+font-size: 40px;
+cursor: pointer;
+}
+.carousel-btn {
+        position: absolute;
+        top: 50%;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        cursor: pointer;
+        border: none;
+        z-index: 1000;
+    }
+
+    .carousel-btn-left {
+        left: 10px;
+    }
+
+    .carousel-btn-right {
+        right: 10px;
+    }
+/*FOOTER*/
+.footer
+{
+  flex-wrap: wrap;
+  height: 470px;
+  background-color: #d0cbcb;
+  display: flex;
+  justify-content: center;
+
+}
+.column-footer
+{
+  flex: 1 1 auto;
+  padding: 10px;
+  border: none;
+}
+.khung1
+{
+  width: 87px;
+  background-color: #d0cbcb;
+}
+.khung2
+{
+  width: 4px;
+  background-color: #d0cbcb;
+}
+.khung3
+{
+  width: 6px;
+  background-color: #d0cbcb;
+}
+.khung4
+{
+  width: 2px;
+  background-color: #d0cbcb;
+}
+.a {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.a:hover {
+  background-color: red;
+}
+a {
+  line-height: 2; 
+}
+.copy
+{
+  background-color: rgb(117, 90, 90);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 4px;
+}
